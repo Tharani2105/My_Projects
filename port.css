@@ -1,0 +1,68 @@
+/* Resume Section */
+section {
+ 
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff8f8;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Canva iframe styling */
+iframe {
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Resume text */
+section p {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Download Resume link styled as button */
+section a {
+  display: inline-block;
+  margin-top: 8px;
+  /* background-color: #10badd; Tailoring theme pink */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+section a:hover {
+  /* background-color: #10badd; */
+  transform: scale(1.05);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  iframe {
+    height: 400px;
+  }
+
+  section p {
+    font-size: 16px;
+  }
+}
+
+
+#contact {
+  background-color: #fff8f8;
+  color:#049194;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+}
+
+#contact a {
+    color:rgb(9, 141, 132);
+  transition: color 0.3s ease;
+}
+
+#contact a:hover {
+  color: #065455; /* Match your tailoring brand color */
+}
